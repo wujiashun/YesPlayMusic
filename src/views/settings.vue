@@ -729,7 +729,7 @@
       <div class="footer">
         <p class="author"
           >MADE BY
-          <a href="http://github.com/qier222" target="_blank">欲尘</a></p
+          <a href="http://github.com/wujiashun" target="_blank">欲尘</a></p
         >
         <p class="version">v{{ version }}</p>
 
