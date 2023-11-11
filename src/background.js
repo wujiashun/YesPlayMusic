@@ -186,7 +186,7 @@ class Background {
         isWindows ||
         (isLinux && this.store.get('settings.linuxEnableCustomTitlebar'))
       ),
-      title: 'YesPlayMusic',
+      title: 'YuchenMusic',
       show: false,
       webPreferences: {
         webSecurity: false,
@@ -282,7 +282,7 @@ class Background {
         .then(result => {
           if (result.response === 0) {
             shell.openExternal(
-              'https://github.com/qier222/YesPlayMusic/releases'
+              'https://github.com/wujiashun/YesPlayMusic/releases'
             );
           }
         });
@@ -351,7 +351,7 @@ class Background {
           width: 800,
           height: 600,
           titleBarStyle: 'default',
-          title: 'YesPlayMusic',
+          title: 'YuchenMusic',
           webPreferences: {
             webSecurity: false,
             nodeIntegration: true,
