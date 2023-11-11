@@ -150,7 +150,7 @@ export function createMenu(win, store) {
               {
                 role: 'window',
                 id: 'window',
-                label: '欲尘Music-第三方自用音乐播放器',
+                label: 'YesPlayMusic',
                 type: 'checkbox',
                 checked: true,
                 click: () => {
@@ -173,7 +173,7 @@ export function createMenu(win, store) {
           label: 'GitHub',
           click: async () => {
             const { shell } = require('electron');
-            await shell.openExternal('https://github.com/qier222/欲尘Music');
+            await shell.openExternal('https://github.com/qier222/YesPlayMusic');
           },
         },
         {

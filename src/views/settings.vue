@@ -729,13 +729,13 @@
       <div class="footer">
         <p class="author"
           >MADE BY
-          <a href="https://res.abeim.cn/api/qq/?qq=910114461" target="_blank">欲尘</a></p
+          <a href="http://github.com/qier222" target="_blank">QIER222</a></p
         >
         <p class="version">v{{ version }}</p>
 
         <a
           v-if="!isElectron"
-          href="https://vercel.com/"
+          href="https://vercel.com/?utm_source=ohmusic&utm_campaign=oss"
         >
           <img
             height="36"
