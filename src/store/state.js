@@ -13,7 +13,7 @@ updateApp();
 export default {
   showLyrics: false,
   enableScrolling: true,
-  title: 'YesPlayMusic',
+  title: '欲尘Music-第三方自用音乐播放器',
   liked: {
     songs: [],
     songsWithDetails: [], // 只有前12首

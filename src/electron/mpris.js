@@ -6,8 +6,8 @@ export function createMpris(window) {
   const renderer = window.webContents;
 
   const player = Player({
-    name: 'yesplaymusic',
-    identity: 'YesPlayMusic',
+    name: '欲尘Music-第三方自用音乐播放器',
+    identity: '欲尘Music-第三方自用音乐播放器c',
   });
 
   player.on('next', () => renderer.send('next'));
