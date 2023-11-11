@@ -208,7 +208,7 @@ export function createTray(win, eventEmitter) {
     });
 
   let tray = new Tray(icon);
-  tray.setToolTip('欲尘Music-第三方自用音乐播放器');
+  tray.setToolTip('YesPlayMusic');
 
   return isLinux
     ? new YPMTrayLinuxImpl(tray, win, eventEmitter)

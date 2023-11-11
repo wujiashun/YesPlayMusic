@@ -3,7 +3,7 @@ import Dexie from 'dexie';
 import store from '@/store';
 // import pkg from "../../package.json";
 
-const db = new Dexie('欲尘Music');
+const db = new Dexie('yesplaymusic');
 
 db.version(4).stores({
   trackDetail: '&id, updateTime',
