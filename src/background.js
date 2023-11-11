@@ -157,7 +157,7 @@ class Background {
     expressApp.use('/api', expressProxy('http://127.0.0.1:10754'));
     expressApp.use('/player', (req, res) => {
       this.window.webContents
-        .executeJavaScript('window.欲尘Music.player')
+        .executeJavaScript('window.yesplaymusic.player')
         .then(result => {
           res.send({
             currentTrack: result._isPersonalFM
@@ -186,7 +186,7 @@ class Background {
         isWindows ||
         (isLinux && this.store.get('settings.linuxEnableCustomTitlebar'))
       ),
-      title: '欲尘Music-第三方自用音乐播放器',
+      title: 'YesPlayMusic',
       show: false,
       webPreferences: {
         webSecurity: false,
@@ -282,7 +282,7 @@ class Background {
         .then(result => {
           if (result.response === 0) {
             shell.openExternal(
-              'https://github.com/qier222/欲尘Music/releases'
+              'https://github.com/qier222/YesPlayMusic/releases'
             );
           }
         });
@@ -351,7 +351,7 @@ class Background {
           width: 800,
           height: 600,
           titleBarStyle: 'default',
-          title: '欲尘Music-第三方自用音乐播放器',
+          title: 'YesPlayMusic',
           webPreferences: {
             webSecurity: false,
             nodeIntegration: true,
